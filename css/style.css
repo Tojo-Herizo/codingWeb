@@ -1,0 +1,44 @@
+.main-blog-card {
+    width: 90%;
+    
+}
+.category-aside{
+    width: 100%;
+
+}
+.main-blog {
+    width: 70%;
+
+}
+.aside-main{
+    width: 30%;
+
+}
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+.section-1{
+width: 100%;
+}
+/* admin */
+.main-table {
+    width: 90%;
+    max-width: 700px;
+
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .main-blog {
+        width: 100%;
+    }
+    .main-blog-card{
+        width: 100%;
+    }
+    .aside-main {
+        display: none;
+    }
+}
